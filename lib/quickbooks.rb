@@ -30,6 +30,7 @@ require 'quickbooks/model/linked_transaction'
 require 'quickbooks/model/invoice_line_item'
 require 'quickbooks/model/invoice'
 require 'quickbooks/model/customer'
+require 'quickbooks/model/credit_memo'
 
 #== Services
 require 'quickbooks/service/base_service'
@@ -37,6 +38,7 @@ require 'quickbooks/service/service_crud'
 require 'quickbooks/service/customer'
 require 'quickbooks/service/invoice'
 require 'quickbooks/service/item'
+require 'quickbooks/service/credit_memo'
 
 class InvalidModelException < StandardError; end
 
